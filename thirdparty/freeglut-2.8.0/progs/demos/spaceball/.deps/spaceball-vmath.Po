@@ -1,0 +1,12 @@
+spaceball-vmath.o: vmath.c \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/math.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h \
+ vmath.h vmath.inl
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/math.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h:
+
+vmath.h:
+
+vmath.inl:

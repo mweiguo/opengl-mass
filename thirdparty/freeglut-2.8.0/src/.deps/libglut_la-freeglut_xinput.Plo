@@ -1,0 +1,118 @@
+libglut_la-freeglut_xinput.lo: freeglut_xinput.c ../include/GL/freeglut.h \
+ ../include/GL/freeglut_std.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/windows.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stdarg.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/windef.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winnt.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winerror.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/string.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stddef.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/basetsd.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/pshpack4.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/poppack.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/wincon.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winbase.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/wingdi.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winuser.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winnls.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winver.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winnetwk.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winreg.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winsvc.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/GL/gl.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/GL/glu.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdlib.h \
+ ../include/GL/freeglut_ext.h freeglut_internal.h ../config.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/windowsx.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/mmsystem.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/tchar.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdio.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/sys/types.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/math.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/unistd.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/io.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/process.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdint.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/sys/time.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/time.h
+
+../include/GL/freeglut.h:
+
+../include/GL/freeglut_std.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/windows.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stdarg.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/windef.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winnt.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winerror.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/string.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stddef.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/basetsd.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/pshpack4.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/poppack.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/wincon.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winbase.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/wingdi.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winuser.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winnls.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winver.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winnetwk.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winreg.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winsvc.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/GL/gl.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/GL/glu.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdlib.h:
+
+../include/GL/freeglut_ext.h:
+
+freeglut_internal.h:
+
+../config.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/windowsx.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/mmsystem.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/tchar.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdio.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/sys/types.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/math.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/unistd.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/io.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/process.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdint.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/sys/time.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/time.h:
