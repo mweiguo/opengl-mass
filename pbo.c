@@ -83,7 +83,7 @@ void update_texture ( JPEGIMAGE* rawimage )
     glTexSubImage2D (GL_TEXTURE_2D, 0, 0, 0, rawimage->width, rawimage->height, 
                      rawimage->color_components == 4 ? GL_RGBA : GL_RGB, 
                      GL_UNSIGNED_BYTE, 0 );
-    printf ( "\tstage1(upload) take %d tick\n", clock() - tick );
+/*     printf ( "\tstage1(upload) take %d tick\n", clock() - tick ); */
 
     tick = clock();
 /*     bind_tick = clock (); */
@@ -110,7 +110,7 @@ void update_texture ( JPEGIMAGE* rawimage )
 /*     unbind_tick = clock(); */
     glBindBuffer    (GL_PIXEL_UNPACK_BUFFER, 0 );
 /*     unbind_tick = clock() - unbind_tick; */
-    printf ( "\tstage2(write new data to mapped memory) take %d tick\n", clock() - tick );
+/*     printf ( "\tstage2(write new data to mapped memory) take %d tick\n", clock() - tick ); */
 /*     printf ( "\tbind=%d, bufferdata=%d, mapbuffer=%d, memcpy=%d, unmap=%d, unbind=%d\n",  */
 /*              bind_tick, data_tick, map_tick, memcpy_tick, unmap_tick, unbind_tick ); */
 }
@@ -122,9 +122,10 @@ void display ()
     glLoadIdentity ();
     gluLookAt ( 0, 0, 2, 0, 0, 0, 0, 1, 0 );
 
+    printf ( "------------------------------------------------------------\n" );
     tick = clock();
     update_texture ( g_rawimage );
-    printf ( "upload take %d tick\n", clock() - tick );
+    printf ( "upload image from memory to video card memory take %d tick\n", clock() - tick );
 
     tick = clock();
     if ( texid == 0 ) {
